@@ -36,3 +36,6 @@ discardBtn.addEventListener("click", () => {
 taskForm.addEventListener("submit", (e) => {
     e.preventDefault();
 })
+
+// checking if the id of item ans currentTask are equal
+const  dataArrIndex = taskData.findIndex((item) => item.id === currentTask.id);
